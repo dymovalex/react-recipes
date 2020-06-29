@@ -1,19 +1,52 @@
 {
-  "posts": [
+  "recipes": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Tea #1",
+      "description": "Pellentesque laoreet quam vitae mauris mollis luctus. Donec euismod ornare condimentum. Fusce dictum arcu et felis blandit pulvinar. Etiam orci dui, posuere nec urna ut, dapibus rhoncus odio. Cras volutpat pulvinar viverra. Vivamus scelerisque felis feugiat, feugiat tellus sit amet, scelerisque nisi. Integer ut pulvinar tortor.",
+      "ingredients": [
+        "лаванда",
+        "мята"
+      ],
+      "purpose": [
+        "сердце"
+      ]
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "Tea #2",
+      "description": "Pellentesque laoreet quam vitae mauris mollis luctus. Donec euismod ornare condimentum. Fusce dictum arcu et felis blandit pulvinar. Etiam orci dui, posuere nec urna ut, dapibus rhoncus odio. Cras volutpat pulvinar viverra. Vivamus scelerisque felis feugiat, feugiat tellus sit amet, scelerisque nisi. Integer ut pulvinar tortor.",
+      "ingredients": [
+        "лаванда",
+        "мята"
+      ],
+      "purpose": [
+        "печень"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Tea #3",
+      "description": "Pellentesque laoreet quam vitae mauris mollis luctus. Donec euismod ornare condimentum. Fusce dictum arcu et felis blandit pulvinar. Etiam orci dui, posuere nec urna ut, dapibus rhoncus odio. Cras volutpat pulvinar viverra. Vivamus scelerisque felis feugiat, feugiat tellus sit amet, scelerisque nisi. Integer ut pulvinar tortor.",
+      "ingredients": [
+        "лаванда",
+        "мята"
+      ],
+      "purpose": [
+        "сердце"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Tea #4",
+      "description": "Pellentesque laoreet quam vitae mauris mollis luctus. Donec euismod ornare condimentum. Fusce dictum arcu et felis blandit pulvinar. Etiam orci dui, posuere nec urna ut, dapibus rhoncus odio. Cras volutpat pulvinar viverra. Vivamus scelerisque felis feugiat, feugiat tellus sit amet, scelerisque nisi. Integer ut pulvinar tortor.",
+      "ingredients": [
+        "лаванда",
+        "мята"
+      ],
+      "purpose": [
+        "почки"
+      ]
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
