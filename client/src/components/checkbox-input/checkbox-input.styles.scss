@@ -1,0 +1,26 @@
+.checkbox-input {
+  input {
+    -webkit-appearance: none;
+    background-color: #fafafa;
+    border: .5px solid #cacece;
+    padding: 9px;
+    border-radius: 3px;
+    position: relative;
+    outline: none;
+  }
+  
+  input:checked {
+    background-color: var(--dark-green);
+    border: .5px solid #adb8c0;
+    color: white;
+  }
+
+  input:checked:after {
+    content: '\2714';
+    font-size: 14px;
+    position: absolute;
+    top: 0px;
+    left: 3px;
+    color: white;
+  }
+}

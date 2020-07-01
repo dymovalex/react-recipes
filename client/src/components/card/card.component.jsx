@@ -15,7 +15,6 @@ const Card = ({ recipe }) => {
   return (
     <div className='card'>
       <div className='image'>
-        <img src='card-background.jpg' />
         <h3 className='image__name'>{recipe.name}</h3>
         <a href='#!' className='image__button'>
           <i className='material-icons'>star_border</i>

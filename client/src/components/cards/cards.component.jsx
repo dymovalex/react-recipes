@@ -12,12 +12,9 @@ const Cards = () => {
   }, []);
 
   const getRecipes = async () => {
-    console.log('In getRecipes');
     const res = await fetch('/recipes');
-    console.log(res);
     
     const data = await res.json();
-    console.log(data);
   
     setRecipes(data);
   };
